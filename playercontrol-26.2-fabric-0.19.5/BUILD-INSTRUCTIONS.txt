@@ -1,8 +1,0 @@
-PlayerControl 26.2 / Fabric 0.19.5
-
-Windows build:
-1. Open CMD in this folder.
-2. Run: gradlew.bat clean build
-3. The built mod JAR will be in build\libs\
-
-The Windows Gradle launcher copies gradle\wrapper\gradle-wrapper.jar to TEMP before starting it. This is intentional: some Windows extraction/security configurations can cause Java to report "Unable to access jarfile" even when the file exists.
